@@ -11,7 +11,7 @@ export const trpcClient = trpc.createClient({
   links: [
     // loggerLink(),
     httpBatchLink({
-      url: "http://localhost:1234/api/trpc",
+      url: "http://localhost:4001/api/trpc",
       fetch: async (input, init?) => {
         const fetch = getFetch();
         return fetch(input, {
