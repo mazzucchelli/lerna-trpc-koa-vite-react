@@ -8,10 +8,11 @@
     "dev": "lerna run dev",
     "build": "lerna run build",
     "test": "lerna run test",
-    "publish": "lerna publish --no-private"
+    "publish": "lerna publish --no-private",
+    "version": "lerna version --no-private"
   },
   "devDependencies": {
     "lerna": "^6.5.1"
   },
-  "version": "0.0.2"
+  "version": "0.0.1"
 }
