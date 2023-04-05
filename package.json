@@ -1,15 +1,17 @@
 {
-  "name": "root",
-  "private": true,
+  "name": "demo-lerna-trpc-koa-vite",
+  "private": false,
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
     "dev": "lerna run dev",
     "build": "lerna run build",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "publish": "lerna publish --no-private"
   },
   "devDependencies": {
     "lerna": "^6.5.1"
-  }
+  },
+  "version": "0.0.1"
 }
